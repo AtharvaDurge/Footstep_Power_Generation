@@ -12,6 +12,8 @@ The hardware acts as a complete power conditioning chain from mechanical input t
 * **Voltage Regulation:** A Schottky diode prevents reverse discharge, and an MT3608 DC-DC boost converter steps up the harvested voltage to a stable 5V for the ESP32 microcontroller.
 * **Load Indicator:** GPIO26 drives an LED when the harvested voltage crosses the activation threshold.
 
+  ![Circuit Diagram](./Hardware/Circuit_Diagram.png)
+
 ## 💻 Firmware & IoT Dashboard
 A major feature of the project is the live IoT web dashboard hosted by the ESP32 over Wi-Fi. 
 * **Server-Sent Events (SSE):** The dashboard updates in real time without requiring any page refresh, using Server-Sent Events (SSE).
