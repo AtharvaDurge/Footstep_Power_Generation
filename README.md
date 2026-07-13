@@ -36,3 +36,8 @@ A major feature of the project is the live IoT web dashboard hosted by the ESP32
 4. Flash the code to the ESP32.
 5. Open the Serial Monitor at 115200 baud to find the dynamically assigned IP address.
 6. Enter the IP address into any web browser on the same network to view the live dashboard.
+
+## Contributors:
+1. Atharva Durge
+2. Arnika Gade
+3. Sanyukta Gharde
